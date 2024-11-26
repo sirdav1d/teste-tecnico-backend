@@ -139,7 +139,7 @@ export class ProdutoService {
         produto:true
       }
     })
-    console.log(compra)
+   
     if(!compra){
       throw new InternalServerErrorException('Não foi possível comprar produto')
     }
